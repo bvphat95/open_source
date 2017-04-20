@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\BACKUP\Desktop\IMU\project\Project.uvproj
+Project File Date:  11/21/2016
+
+<h2>Output:</h2>
+Build target 'Project'
+linking...
+Program Size: Code=14344 RO-data=664 RW-data=224 ZI-data=1064  
+FromELF: creating hex file...
+".\Obj\Demo2.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+:  #1295-D: Deprecated declaration MPU6050_TestConnection - give arg types
+  bool MPU6050_TestConnection();
+.\Src\MPU6050.h(489): warning:  #1295-D: Deprecated declaration MPU6050_GetFullScaleGyroRange - give arg types
+  uint8_t MPU6050_GetFullScaleGyroRange();
+.\Src\MPU6050.h(492): warning:  #1295-D: Deprecated declaration MPU6050_GetFullScaleAccelRange - give arg types
+  uint8_t MPU6050_GetFullScaleAccelRange();
+.\Src\MPU6050.h(494): warning:  #1295-D: Deprecated declaration Stop_Communication - give arg types
+  uint8_t Stop_Communication();
+.\Src\MPU6050.h(496): warning:  #1295-D: Deprecated declaration MPU6050_GetSleepModeStatus - give arg types
+  bool MPU6050_GetSleepModeStatus();
+.\Src\MPU6050.h(500): warning:  #1295-D: Deprecated declaration MPU6050_GetDeviceID - give arg types
+  uint8_t MPU6050_GetDeviceID();
+.\Src\MPU6050.h(516): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MPU6050_H */
+.\Src\HMC5883L.h(81): warning:  #1295-D: Deprecated declaration HMC5883L_Initialize - give arg types
+  void HMC5883L_Initialize();
+.\Src\HMC5883L.h(82): warning:  #1295-D: Deprecated declaration HMC5883L_TestConnection - give arg types
+  bool HMC5883L_TestConnection();
+.\Src\HMC5883L.h(85): warning:  #1295-D: Deprecated declaration HMC5883L_GetSampleAveraging - give arg types
+  uint8_t HMC5883L_GetSampleAveraging();
+.\Src\HMC5883L.h(87): warning:  #1295-D: Deprecated declaration HMC5883L_GetDataRate - give arg types
+  uint8_t HMC5883L_GetDataRate();
+.\Src\HMC5883L.h(89): warning:  #1295-D: Deprecated declaration HMC5883L_GetMeasurementBias - give arg types
+  uint8_t HMC5883L_GetMeasurementBias();
+.\Src\HMC5883L.h(93): warning:  #1295-D: Deprecated declaration HMC5883L_GetGain - give arg types
+  uint8_t HMC5883L_GetGain();
+.\Src\HMC5883L.h(97): warning:  #1295-D: Deprecated declaration HMC5883L_GetMode - give arg types
+  uint8_t HMC5883L_GetMode();
+.\Src\HMC5883L.h(103): warning:  #1295-D: Deprecated declaration HMC5883L_GetLockStatus - give arg types
+  bool HMC5883L_GetLockStatus();
+.\Src\HMC5883L.h(104): warning:  #1295-D: Deprecated declaration HMC5883L_GetReadyStatus - give arg types
+  bool HMC5883L_GetReadyStatus();
+.\Src\MadgwickAHRS.h(26): warning:  #1-D: last line of file ends without a newline
+  //=====================================================================================================
+User\main.c(98): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                         MadgwickAHRSupdate(Gyro_X*DEG_TO_RAD, Gyro_Y*DEG_TO_RAD, Gyro_Z*DEG_TO_RAD,Acc_X,Acc_Y,Acc_Z,Mag_X ,Mag_Y,Mag_X);
+User\main.c(98): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                         MadgwickAHRSupdate(Gyro_X*DEG_TO_RAD, Gyro_Y*DEG_TO_RAD, Gyro_Z*DEG_TO_RAD,Acc_X,Acc_Y,Acc_Z,Mag_X ,Mag_Y,Mag_X);
+User\main.c(98): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                         MadgwickAHRSupdate(Gyro_X*DEG_TO_RAD, Gyro_Y*DEG_TO_RAD, Gyro_Z*DEG_TO_RAD,Acc_X,Acc_Y,Acc_Z,Mag_X ,Mag_Y,Mag_X);
+User\main.c: 21 warnings, 0 errors
+linking...
+Program Size: Code=14344 RO-data=664 RW-data=224 ZI-data=1064  
+FromELF: creating hex file...
+".\Obj\Demo2.axf" - 0 Error(s), 21 Warning(s).

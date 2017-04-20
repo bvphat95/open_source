@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\GPIO -I..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\User -I.\Src 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F4xx 
+-DSTM32F4XX -DUSE_STDPERIPH_DRIVER -o ".\Obj\timebase.o" --omf_browse ".\Obj\timebase.crf" --depend ".\Obj\timebase.d" "Src\TIMEBASE.c"

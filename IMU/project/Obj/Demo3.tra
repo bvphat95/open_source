@@ -1,0 +1,30 @@
+*** Creating Trace Output File '.\Obj\Demo3.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\stm32f4xx_it.o"'
+### List of Objects: adding '".\obj\system_stm32f4xx.o"'
+### List of Objects: adding '".\obj\startup_stm32f4xx.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f4xx_gpio.o"'
+### List of Objects: adding '".\obj\stm32f4xx_rcc.o"'
+### List of Objects: adding '".\obj\stm32f4xx_tim.o"'
+### List of Objects: adding '".\obj\gpio.o"'
+### List of Objects: adding '".\obj\systick.o"'
+### List of Objects: adding '".\obj\timebase.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\obj\main.o" ".\obj\stm32f4xx_it.o" ".\obj\system_stm32f4xx.o" ".\obj\startup_stm32f4xx.o" ".\obj\misc.o" ".\obj\stm32f4xx_gpio.o" ".\obj\stm32f4xx_rcc.o" ".\obj\stm32f4xx_tim.o" ".\obj\gpio.o" ".\obj\systick.o" ".\obj\timebase.o" 
+--library_type=microlib --strict --scatter ".\Obj\Demo3.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Demo3.map" -o .\Obj\Demo3.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\Demo3.axf'
+### ADS-LD Command File: '.\Obj\Demo3.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\Demo3.lnp', Handle=0x00000894
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\Demo3.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
